@@ -7,7 +7,7 @@ import { Controller, useForm } from "react-hook-form";
 
 import ErrorMessage from "@/app/components/ErrorMessage";
 import SimpleMDE from "react-simplemde-editor";
-import Spinner from "@/app/components/spinner";
+import Spinner from "@/app/components/Spinner";
 import axios from "axios";
 import { createIssueSchema } from "@/app/validationSchemas";
 import { useRouter } from "next/navigation";
